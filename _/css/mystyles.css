@@ -1,0 +1,130 @@
+body {
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+#home {
+	text-align: center;
+}
+
+div#mypost img:nth-child(1)
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.ui-li-heading {
+    font-size: 0.9em !important;
+    font-weight: bold;
+    display: block;
+    margin: .6em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal !important;
+}
+
+.ui-li-thumb {
+    top: 1px !important;
+}
+
+.mainArticle {
+	height: 220px;
+}
+
+body.background {
+	background-color: white !important;
+	background: white !important;
+}
+
+.wp_social_single_share_wrapper {
+    display: none;
+}
+
+.mainArticleTitle {
+	font-weight: bold;
+	position: relative;
+	top: -51px;
+	background-color: rgba(255, 255, 255, 0.5);
+	font-size: 1.1em;
+	padding-top: 4px;
+	padding-bottom: 2px;
+    max-height: 50px;
+}
+
+.featuredImage {
+    height: 220px;
+    overflow: hidden;
+    /*background: url('http://www.stlucianewsonline.com/wp-content/uploads/2014/05/Sandy-beach.jpg') no-repeat scroll center center / cover transparent;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+}
+
+#featuredImage img {
+    width: 100%;
+}
+
+#home .ui-controlgroup {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 250px;
+}
+
+#videolist img {
+	display: block;
+	width: 90%;
+}
+
+
+.ui-icon-vs_video {
+	background-image: url("../../images/icon_video.png");
+}
+
+.ui-icon-vs_photo {
+	background-image: url("../../images/icon_photo.png");
+}
+
+.ui-icon-vs_blog {
+	background-image: url("../../images/icon_blog.png");
+}
+
+.ui-icon-vs_twitter {
+	background-image: url("../../images/icon_twitter.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2) {
+
+	.ui-icon-vs_video {
+		background-image: url("../../images/icon_video_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_photo {
+		background-image: url("../../images/icon_photo_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_blog {
+		background-image: url("../../images/icon_blog_hr.png");
+		background-size:18px 18px;
+	}
+	
+	.ui-icon-vs_twitter {
+		background-image: url("../../images/icon_twitter_hr.png");
+		background-size:18px 18px;
+	}
+
+}
+div {
+    
+}
+
+.title {
+    height: 30px;
+    font-size: 1.5em;
+    /*background-color: #fff;*/
+    color: #0092CD;
+    text-shadow: none;    
+}
